@@ -17,7 +17,7 @@ body {
 .container {
   background-color: hsl(0, 0%, 12%);
   border-radius: 8px;
-  width: 350px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,18 +25,44 @@ body {
 }
 
 img {
-  width: 60px;
+  width: 70px;
   border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+a,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.userName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.userLocation {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.userHobbies {
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 a {
+  font-weight: bold;
+  font-size: 0.7rem;
   text-decoration: none;
   text-decoration: none;
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
-  width: 300px;
+  width: 250px;
   text-align: center;
   border-radius: 5px;
   padding: 12px;
-  margin: 5px 0;
+  margin: 6px 0;
 }
